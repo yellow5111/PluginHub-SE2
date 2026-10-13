@@ -8,7 +8,7 @@
     <RepoId>yellow5111/SE2Online</RepoId>
 
     <!-- The name of your plugin that will appear in the plugin list -->
-    <FriendlyName>Y51 SE2 Online</FriendlyName>
+    <FriendlyName>Multiplayer Plugin - yellow51's SE2 Online</FriendlyName>
 
     <!-- The author name that you want to appear in the plugin list -->
     <Author>yellow51</Author>
@@ -43,6 +43,6 @@
     <Hidden>false</Hidden>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>3ac7c5fae5969db729ce459856c70a3803b9f79f</Commit>
+    <Commit>5db68b5fe3d1e76586466f5bac3c7fe74c77a069</Commit>
 
 </PluginData>
