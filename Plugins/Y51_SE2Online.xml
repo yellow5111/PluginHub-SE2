@@ -17,13 +17,13 @@
     <Tooltip>Online multiplayer for Space Engineers 2: dedicated servers, hosting and joining over Steam or IP.</Tooltip>
 
     <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-    <Description>Online multiplayer for Space Engineers 2. Host your world, join friends over Steam or a direct IP address, or play on Y51 SE2 Online dedicated servers listed in the in-game server browser.
+    <Description>Online multiplayer for Space Engineers 2: host your world, join friends over Steam or IP, or play on dedicated servers. Chat, admin tools, factions, grid sharing, respawn menu, name tags. Everyone in a session needs the same plugin version.
 
-        Includes chat, a players list, admin tools (kick, ban, whitelist, PvP, PCU limit, sun control, safe zones), factions and grid sharing, a respawn menu and name tags. Everyone in a session needs the same plugin version. Open the Multiplayer screen from the main menu or this plugin's config button.
+        Network use: checks se2-online.yellow51.dev for updates at start (optional). Listing a hosted session is opt-in and sends your SteamID64, session/world name and player counts to se2-online-sessions.yellow51.dev every 30 s. The server browser sends Steam server queries to every listed address. Workshop mods a server needs are downloaded only after you agree (10 GiB cap by default); mods you have are updated to the server's version without asking.
 
-        Network use: checks se2-online.yellow51.dev for updates at game start (can be turned off). Listing a hosted session in the public browser is opt-in and sends your SteamID64, session and world name and player counts to se2-online-sessions.yellow51.dev every 30 s. Joining a server whose world runs Steam Workshop mods you don't have downloads them from Steam, but only after the join shows them with their sizes and you agree (at most 10 GiB per server by default).
+        On your PC: on Windows, a low-level keyboard hook runs while you are online or setting a key. A patch removes the crash handler SE2's AI library (VRage.KytheraV2.Native.dll) installs.
 
-        Server owners: the host sends the whole world state to every joined player (no per-player visibility filtering), so a modified client could see all of it.
+        Server owners: without a streaming radius, every player receives the whole world state.
     </Description>
 
     <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
@@ -43,6 +43,6 @@
     <Hidden>false</Hidden>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>2c21023e11df8a00f5f18d88953a1c8bd7953981</Commit>
+    <Commit>0a85e1e60d72ced8a7cea8df7c0db58980e4d0c7</Commit>
 
 </PluginData>
