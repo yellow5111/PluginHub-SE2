@@ -17,9 +17,9 @@
     <Tooltip>Online multiplayer for Space Engineers 2: dedicated servers, hosting and joining over Steam or IP.</Tooltip>
 
     <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-    <Description>Online multiplayer for Space Engineers 2: host your world, join friends over Steam or IP, or play on dedicated servers. Chat, admin tools, factions, grid sharing, respawn menu, name tags. Everyone in a session needs the same plugin version.
+    <Description>Online multiplayer for Space Engineers 2: host your world, join friends over Steam or IP, or play on dedicated servers. Everyone in a session needs the same plugin version. Joining a server applies its custom rules to your game for that session.
 
-        Network use: checks se2-online.yellow51.dev for updates at start (optional). Listing a hosted session is opt-in and sends your SteamID64, session/world name and player counts to se2-online-sessions.yellow51.dev every 30 s. The server browser sends Steam server queries to every listed address. Workshop mods a server needs are downloaded only after you agree (10 GiB cap by default); mods you have are updated to the server's version without asking.
+        Network use: checks se2-online.yellow51.dev for updates at start (optional). Listing a hosted session is opt-in and sends your SteamID64, session/world name and player counts to se2-online-sessions.yellow51.dev every 30 s. The server browser queries every listed address over Steam. Workshop mods a server needs are downloaded only after you agree (10 GiB cap by default); mods you have are updated to the server's version without asking.
 
         On your PC: on Windows, a low-level keyboard hook runs while you are online or setting a key. A patch removes the crash handler SE2's AI library (VRage.KytheraV2.Native.dll) installs.
 
@@ -43,6 +43,6 @@
     <Hidden>false</Hidden>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>0a85e1e60d72ced8a7cea8df7c0db58980e4d0c7</Commit>
+    <Commit>47fdf365325b486f629dc27ab5b3065e6e3a815b</Commit>
 
 </PluginData>
